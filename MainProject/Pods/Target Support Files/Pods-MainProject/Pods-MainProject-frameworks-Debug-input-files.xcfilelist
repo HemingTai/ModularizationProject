@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HTCrashReporter/HTCrashReporter.framework
+${BUILT_PRODUCTS_DIR}/HTScheduler/HTScheduler.framework
+${BUILT_PRODUCTS_DIR}/ModuleA/ModuleA.framework
+${BUILT_PRODUCTS_DIR}/ModuleACategory/ModuleACategory.framework
+${BUILT_PRODUCTS_DIR}/ModuleB/ModuleB.framework
+${BUILT_PRODUCTS_DIR}/ModuleBCategory/ModuleBCategory.framework

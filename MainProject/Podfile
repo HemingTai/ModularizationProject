@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MainProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  source "https://github.com/CocoaPods/Specs.git"
+  source "https://github.com/HemingTai/HTSpecs.git"
+  # Pods for MainProject
+  pod 'HTCrashReporter'
+  pod 'ModuleA', :path => "~/Documents/ModuleProject/ModuleA"
+  pod 'ModuleB', :path => "~/Documents/ModuleProject/ModuleB"
+  pod 'ModuleBCategory', :path => "~/Documents/ModuleProject/ModuleBCategory"
+  pod 'ModuleACategory', :path => "~/Documents/ModuleProject/ModuleACategory"
+  
+end

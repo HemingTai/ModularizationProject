@@ -1,0 +1,1694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0770578ED051541549C14F681C7F912C /* HTBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D9FBDC45ECAF54E8667281286B5C4D /* HTBViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC62BB2F2650182DBEAA9F80633C098 /* Pods-MainProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D463A374740E616882A64CBA4F0F845 /* HTScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8360FE00D2EA6F6FADE415E40532B729 /* HTScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F93FFD9E235B352F09FDF1EFCCCFB2B /* HTCrashConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A835A873DCD22C6EC63A38BBE9691937 /* HTCrashConfiguration.m */; };
+		110814EFC9F75C68F9B895DFACD4400C /* HTCrashReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20333EE67108AA9DB43AC20EA0A23A /* HTCrashReporter-dummy.m */; };
+		14A05B492AB8A05E1B27CDFB71FC710E /* HTCrashProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F394B1D901F21ABF439CE50E8DBC207 /* HTCrashProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0D77AB4EE202C5C03ED20553E2C81A /* HTCrashReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1DF384629029F7CA7361A181BE6FFF /* HTCrashReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BE28F5CAC871792B82B555A8332F704 /* HTScheduler+ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9737218BCF002D9904E3A02485B88822 /* HTScheduler+ModuleB.m */; };
+		1CB19E220CF912CCE437D43AD59A1777 /* ModuleACategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41119708376264242D1F91AF3DFFD7A0 /* ModuleACategory-dummy.m */; };
+		1FAF94A2952DC49ADD2F6DA72A2DEFE2 /* ModuleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEB19EC4024FF77D662CC1737042 /* ModuleA-dummy.m */; };
+		20F39779BE984E16E855F569F99BD9DA /* ModuleBCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B39D54C5157C699E04132E957C00DC45 /* ModuleBCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC8A112B37BC66C3DA108A61402BCB7 /* HTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301F7BFE4A59B4C13EB6334F6FE6FE87 /* HTAViewController.m */; };
+		2CC8CB04A66618E8A2CFD4112FBFA69C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */; };
+		30BE130B0BF978EE8144D2C02D48A110 /* HTCrashProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7FE3EC5A427C9E9732207421439B1A /* HTCrashProxy.m */; };
+		32BC7C834229AB4ABD8877BDE9241523 /* NSString+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0927708FFE39F277E433EB8DA145E128 /* NSString+Swizzling.m */; };
+		363E2995A6412FA85E3150D74388D8A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */; };
+		404FC4E4789FAFC35BD43AD2772B7B62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */; };
+		40D08009AE7C1A73A84288747C51990D /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 44185CF742FE179AF591D54F432142BD /* NSArray+Swizzling.m */; };
+		4DA199D53DA297EA3B7F34030B16C124 /* Target_ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8813B552955FC41D8706A2A6B9D9EAC4 /* Target_ModuleB.m */; };
+		5DE2C072998301F0F5CC8892D745AE11 /* HTCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 815840F814CEAF18CFE09D81E22B1B1B /* HTCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DECBA7D64BBF2F55CE7DB0FD3942638 /* HTScheduler+ModuleB.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A89A7366F4B624323B09F650C20E28 /* HTScheduler+ModuleB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656E226D1B8F33D763C5759F6BF1E1FC /* HTScheduler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6A246FF2B5B026039CCA293720EC6E /* HTScheduler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69DC0156BED693A8A2FDDB24C639223D /* ModuleBCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ADAB1280AFA255A376949C72C18A81 /* ModuleBCategory-dummy.m */; };
+		79B3F02A227B377F395FC6AFD5CB1783 /* ModuleA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 736A40B56A4DAACAC17D6EB21534F941 /* ModuleA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A11C81C9D4A7DC5404B3A2BB17DA5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */; };
+		97668180E210062D92AF6D3032078619 /* HTBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D424D1D4938B9F537636AD222A8EDC0 /* HTBViewController.m */; };
+		9E9272CB0F5E6642FB990003A37FA4C3 /* HTScheduler+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D1F9C5AA2C9AB7A509D8AAC22CDF99 /* HTScheduler+ModuleA.m */; };
+		A030656E80F1E735AB2787C0E11A60F5 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523AC5C97C6F9D760914EDC3D31C5DD /* NSObject+Swizzling.m */; };
+		A16AD26B95891B18D0FA0100EEFB4583 /* NSObject+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 503244BC926B4F90A94510D324E07F6B /* NSObject+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC63F9199236BBF39F353083F82ACEC /* HTCrashConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A30BDD775B879A745D199C31C4CA7E1 /* HTCrashConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADCAA814E6258710474FF2E6F250037C /* HTScheduler+ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8A2643BB2E7A503ECF1A7C9159830A /* HTScheduler+ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0F172DACB7528A3205795B83230216 /* HTScheduler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 015B7398909BB44E184E79B011DCD8FC /* HTScheduler-dummy.m */; };
+		AE10A948AFA43EA2C902AB72F52AC761 /* HTScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = B44C73E105C89959598A624F0A5F185F /* HTScheduler.m */; };
+		AFF778A1998EBDC250C5E43137E7D966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */; };
+		B5B6B845CD2022FEC96AA8004936B46E /* ModuleACategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D69C85CC7D1565EEE652712C0CFCB70F /* ModuleACategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF21800EFBB01993B2BBFB3E7DC4F3FD /* HTScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3155ACF5F33597DC7CDA043BA85D516 /* HTScheduler.framework */; };
+		BFFC7BEBFD36618B0317F12A168A6522 /* ModuleB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7D78639E083D7095A989C3810109C4 /* ModuleB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09E7A01057C6AFA75EA2A081F277340 /* ModuleB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65A282DBB10D761A593D82A4E726306 /* ModuleB-dummy.m */; };
+		C1B851E6883BB5A65DC6D422B503A0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */; };
+		C28703786F40BC8631021525BE936C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */; };
+		C2A00E49648E296E86F486D179D7B43B /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DEA2CBC7682C899941A042016650C2 /* Target_ModuleA.m */; };
+		C2AAB5A0667BE655D8C3F4CD0C607045 /* HTAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A98B445DEA21A102C0F62037679E09F /* HTAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5AE39D4ADA72B509AC0E3F6A82FF4D7 /* Target_ModuleB.h in Headers */ = {isa = PBXBuildFile; fileRef = FC947818880B74E80AFD4E196C857950 /* Target_ModuleB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE77C6EDCA3F4161DF32561951F1910F /* Pods-MainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */; };
+		CF35A68C0EFAF5127EC415835911E968 /* NSArray+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB45CFBCAACFA47B4733D5E36519891 /* NSArray+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D18587EB29311D9DBC4744EEB408C4A1 /* HTCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 456642A9B95C8A3E11CD6EABAAA68B13 /* HTCrashReporter.m */; };
+		D4CD4DD018E3B957D98C84ED49A62B26 /* NSString+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = A51E37B01E15CA3B420D7B593ACA1860 /* NSString+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AA593FFF2C06579C565AD9B6429F87 /* Target_ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 158560D40665700EC55224DD6AE90492 /* Target_ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BFB057BE3D89F183DBCF24F9F5861C /* NSDictionary+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 485E42909784A9DB8B462C0A591768D7 /* NSDictionary+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC15AD5FFF6A97A58FFF84B317147D00 /* HTScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3155ACF5F33597DC7CDA043BA85D516 /* HTScheduler.framework */; };
+		FD94AC74A16CAAEA755A418393496524 /* NSDictionary+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7E8DAC3DB8BABA3C57392D1311F3A /* NSDictionary+Swizzling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F03F4011CB0FE605223C603ADF53CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06A31A4544AC260976EFBA1FB33CFD7C;
+			remoteInfo = ModuleA;
+		};
+		2F86C32B75324E0769AA527E43F458F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAC0FD401CD30D5121D103BB0399D2A;
+			remoteInfo = ModuleBCategory;
+		};
+		4D7D61E9A438C58BE8E632CFCAEC3512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BF94748A6449DE9C6067EC8B1A9014;
+			remoteInfo = HTScheduler;
+		};
+		53A86A391AD1998F659414473E03EB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BF94748A6449DE9C6067EC8B1A9014;
+			remoteInfo = HTScheduler;
+		};
+		69475D344F8AD9C81447FAA40E114B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C70F2395DDD7252599EFB0D17EE01;
+			remoteInfo = HTCrashReporter;
+		};
+		7C291E9D644DCBA3E04008BB73CD4B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C46FC8946BAA675DA4AD91E5CA0FBDA;
+			remoteInfo = ModuleACategory;
+		};
+		9311F621D6615DDC9D47193435C2B4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751082DD8E769C0B785EB5DC5083B66D;
+			remoteInfo = ModuleB;
+		};
+		B567990E12F07FC369F1EABDBA634FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BF94748A6449DE9C6067EC8B1A9014;
+			remoteInfo = HTScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015B7398909BB44E184E79B011DCD8FC /* HTScheduler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTScheduler-dummy.m"; sourceTree = "<group>"; };
+		0523AC5C97C6F9D760914EDC3D31C5DD /* NSObject+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzling.m"; path = "HTCrashReporter/NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		05764BBC65EB452F5ACF5B086A0C3DD4 /* HTScheduler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTScheduler.xcconfig; sourceTree = "<group>"; };
+		058DC54BB9BBA5CD67F70D217E0959E1 /* ModuleACategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleACategory.xcconfig; sourceTree = "<group>"; };
+		05A7F4FFF4494A61037F5450C3F04675 /* HTCrashReporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTCrashReporter.xcconfig; sourceTree = "<group>"; };
+		070FCFAE13FA180851839D655E1B60DE /* Pods-MainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		0927708FFE39F277E433EB8DA145E128 /* NSString+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Swizzling.m"; path = "HTCrashReporter/NSString+Swizzling.m"; sourceTree = "<group>"; };
+		0BF572165B834A2C26F361EAF99F6625 /* HTCrashReporter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTCrashReporter.modulemap; sourceTree = "<group>"; };
+		10D9FBDC45ECAF54E8667281286B5C4D /* HTBViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTBViewController.h; path = ModuleB/Source/HTBViewController.h; sourceTree = "<group>"; };
+		158560D40665700EC55224DD6AE90492 /* Target_ModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ModuleA.h; path = ModuleA/Source/Target_ModuleA.h; sourceTree = "<group>"; };
+		15F5ED7FBA49F416103AAD0572F000B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		17DEA2CBC7682C899941A042016650C2 /* Target_ModuleA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ModuleA.m; path = ModuleA/Source/Target_ModuleA.m; sourceTree = "<group>"; };
+		1C2BB681E0EB26F37411CA16F7D6435C /* ModuleACategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleACategory.modulemap; sourceTree = "<group>"; };
+		1F394B1D901F21ABF439CE50E8DBC207 /* HTCrashProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCrashProxy.h; path = HTCrashReporter/HTCrashProxy.h; sourceTree = "<group>"; };
+		2F8A9B4E819D0CEB48AA3EA96B80B80B /* HTScheduler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HTScheduler-Info.plist"; sourceTree = "<group>"; };
+		301F7BFE4A59B4C13EB6334F6FE6FE87 /* HTAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTAViewController.m; path = ModuleA/Source/HTAViewController.m; sourceTree = "<group>"; };
+		367B8618228DDCF5B2F22A46EE2478C2 /* ModuleB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
+		41119708376264242D1F91AF3DFFD7A0 /* ModuleACategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleACategory-dummy.m"; sourceTree = "<group>"; };
+		44185CF742FE179AF591D54F432142BD /* NSArray+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Swizzling.m"; path = "HTCrashReporter/NSArray+Swizzling.m"; sourceTree = "<group>"; };
+		456642A9B95C8A3E11CD6EABAAA68B13 /* HTCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCrashReporter.m; path = HTCrashReporter/HTCrashReporter.m; sourceTree = "<group>"; };
+		485E42909784A9DB8B462C0A591768D7 /* NSDictionary+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Swizzling.h"; path = "HTCrashReporter/NSDictionary+Swizzling.h"; sourceTree = "<group>"; };
+		4A28A5E7484B39DFE26A00065506D2A5 /* HTCrashReporter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HTCrashReporter-Info.plist"; sourceTree = "<group>"; };
+		4D424D1D4938B9F537636AD222A8EDC0 /* HTBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTBViewController.m; path = ModuleB/Source/HTBViewController.m; sourceTree = "<group>"; };
+		4D7FE3EC5A427C9E9732207421439B1A /* HTCrashProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCrashProxy.m; path = HTCrashReporter/HTCrashProxy.m; sourceTree = "<group>"; };
+		503244BC926B4F90A94510D324E07F6B /* NSObject+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Swizzling.h"; path = "HTCrashReporter/NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		51425704F75CA27ABC3CA741C81C87ED /* ModuleBCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleBCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58F0F5BBE9CA2A908FAE0045766B888E /* Pods-MainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B7C312932B1EF691F6B94368E1ADA9D /* ModuleA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleA.modulemap; sourceTree = "<group>"; };
+		5EEB24336DABAAC6342F47316F16B181 /* ModuleA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-prefix.pch"; sourceTree = "<group>"; };
+		64C5680056925C68ED86E6329BAD15BC /* ModuleBCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleBCategory.xcconfig; sourceTree = "<group>"; };
+		681C32204B89AF67B40E57E3D3D17C04 /* ModuleACategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleACategory.framework; path = ModuleACategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1DF384629029F7CA7361A181BE6FFF /* HTCrashReporter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCrashReporter-umbrella.h"; sourceTree = "<group>"; };
+		70E7E8DAC3DB8BABA3C57392D1311F3A /* NSDictionary+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Swizzling.m"; path = "HTCrashReporter/NSDictionary+Swizzling.m"; sourceTree = "<group>"; };
+		736A40B56A4DAACAC17D6EB21534F941 /* ModuleA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-umbrella.h"; sourceTree = "<group>"; };
+		75677FF8798FF028295F805DEFC630F9 /* ModuleBCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModuleBCategory-Info.plist"; sourceTree = "<group>"; };
+		75DD37438D682870E1E5B6647E3D9A40 /* ModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleB.framework; path = ModuleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A30BDD775B879A745D199C31C4CA7E1 /* HTCrashConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCrashConfiguration.h; path = HTCrashReporter/HTCrashConfiguration.h; sourceTree = "<group>"; };
+		7D0703A5E1640444C9FBAA5F9340C34A /* ModuleA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleA.xcconfig; sourceTree = "<group>"; };
+		7F825ECE3759C95DAEBF0C0B4587DA92 /* Pods-MainProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainProject.modulemap"; sourceTree = "<group>"; };
+		7FE866BDA50DBF1E474253E8420B8D05 /* Pods-MainProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-frameworks.sh"; sourceTree = "<group>"; };
+		815840F814CEAF18CFE09D81E22B1B1B /* HTCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCrashReporter.h; path = HTCrashReporter/HTCrashReporter.h; sourceTree = "<group>"; };
+		82726338C340325D258E703210CD76F0 /* ModuleBCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleBCategory.framework; path = ModuleBCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8360FE00D2EA6F6FADE415E40532B729 /* HTScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTScheduler.h; path = HTScheduler/HTScheduler.h; sourceTree = "<group>"; };
+		83FC3A1B62637E7041515D7D68A82240 /* ModuleB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModuleB-Info.plist"; sourceTree = "<group>"; };
+		8813B552955FC41D8706A2A6B9D9EAC4 /* Target_ModuleB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_ModuleB.m; path = ModuleB/Source/Target_ModuleB.m; sourceTree = "<group>"; };
+		8A98B445DEA21A102C0F62037679E09F /* HTAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTAViewController.h; path = ModuleA/Source/HTAViewController.h; sourceTree = "<group>"; };
+		8D0926B053F4EABF3B7194354CC50303 /* ModuleB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleB.xcconfig; sourceTree = "<group>"; };
+		8DC45D7FA9F06097C06A49A856903FE7 /* HTCrashReporter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCrashReporter-prefix.pch"; sourceTree = "<group>"; };
+		9102DA80DD9B420B1BA716B53BB4BAA4 /* ModuleA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModuleA-Info.plist"; sourceTree = "<group>"; };
+		913EC332632AC8E22A2431454632AF6C /* ModuleBCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleBCategory.modulemap; sourceTree = "<group>"; };
+		9737218BCF002D9904E3A02485B88822 /* HTScheduler+ModuleB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HTScheduler+ModuleB.m"; path = "ModuleBCategory/Source/HTScheduler+ModuleB.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD39810CB05DDCA7F4DD0B439131F59 /* Pods-MainProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-Info.plist"; sourceTree = "<group>"; };
+		A00BBEB19EC4024FF77D662CC1737042 /* ModuleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleA-dummy.m"; sourceTree = "<group>"; };
+		A1ABCC596F715D094EFD728B1500EA7A /* ModuleACategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ModuleACategory-Info.plist"; sourceTree = "<group>"; };
+		A4D1F9C5AA2C9AB7A509D8AAC22CDF99 /* HTScheduler+ModuleA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HTScheduler+ModuleA.m"; path = "ModuleACategory/Source/HTScheduler+ModuleA.m"; sourceTree = "<group>"; };
+		A51E37B01E15CA3B420D7B593ACA1860 /* NSString+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Swizzling.h"; path = "HTCrashReporter/NSString+Swizzling.h"; sourceTree = "<group>"; };
+		A7ADAB1280AFA255A376949C72C18A81 /* ModuleBCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleBCategory-dummy.m"; sourceTree = "<group>"; };
+		A835A873DCD22C6EC63A38BBE9691937 /* HTCrashConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCrashConfiguration.m; path = HTCrashReporter/HTCrashConfiguration.m; sourceTree = "<group>"; };
+		A8BE82C71B7DC5236420769647DAEDA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainProject-umbrella.h"; sourceTree = "<group>"; };
+		AAB45CFBCAACFA47B4733D5E36519891 /* NSArray+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Swizzling.h"; path = "HTCrashReporter/NSArray+Swizzling.h"; sourceTree = "<group>"; };
+		AFC11A53ABBBA6800F97AF95F83BC492 /* HTScheduler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTScheduler-prefix.pch"; sourceTree = "<group>"; };
+		B39D54C5157C699E04132E957C00DC45 /* ModuleBCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleBCategory-umbrella.h"; sourceTree = "<group>"; };
+		B44C73E105C89959598A624F0A5F185F /* HTScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTScheduler.m; path = HTScheduler/HTScheduler.m; sourceTree = "<group>"; };
+		B4A89A7366F4B624323B09F650C20E28 /* HTScheduler+ModuleB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HTScheduler+ModuleB.h"; path = "ModuleBCategory/Source/HTScheduler+ModuleB.h"; sourceTree = "<group>"; };
+		B7279547870E4DDAE6A68D7D53569AC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB3649C4B42C00ED10569DB846BAEA5C /* ModuleACategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleACategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProject-dummy.m"; sourceTree = "<group>"; };
+		CDDF71B906709D618AC43D24C4830354 /* Pods_MainProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MainProject.framework; path = "Pods-MainProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8A2643BB2E7A503ECF1A7C9159830A /* HTScheduler+ModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HTScheduler+ModuleA.h"; path = "ModuleACategory/Source/HTScheduler+ModuleA.h"; sourceTree = "<group>"; };
+		D0F6B8799A5CA9E285A4CDE1C6688B80 /* HTScheduler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTScheduler.modulemap; sourceTree = "<group>"; };
+		D24BACF1AB01F6F22A3117FACC09C0D0 /* ModuleB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleB-prefix.pch"; sourceTree = "<group>"; };
+		D522AA4E8A1ACE3BE7BC7041EB5604A7 /* ModuleACategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleACategory-prefix.pch"; sourceTree = "<group>"; };
+		D69C85CC7D1565EEE652712C0CFCB70F /* ModuleACategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleACategory-umbrella.h"; sourceTree = "<group>"; };
+		D9B9122C754BE2D9FF9DC538F44A631D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DBCE0B6E970951D2710366B5BC483485 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ModuleA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3155ACF5F33597DC7CDA043BA85D516 /* HTScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4066D9E705E9BE6DC43B200ADB14DF9 /* ModuleBCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleBCategory-prefix.pch"; sourceTree = "<group>"; };
+		E456AFCB516933DA3FF757858A9ABC2B /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleA.framework; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1A5B26CC72F7946FAC20F1F48CBF5E /* HTCrashReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTCrashReporter.framework; path = HTCrashReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF20333EE67108AA9DB43AC20EA0A23A /* HTCrashReporter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCrashReporter-dummy.m"; sourceTree = "<group>"; };
+		EF7D78639E083D7095A989C3810109C4 /* ModuleB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleB-umbrella.h"; sourceTree = "<group>"; };
+		F65A282DBB10D761A593D82A4E726306 /* ModuleB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleB-dummy.m"; sourceTree = "<group>"; };
+		F92068E4DA0022C27382F8AE3984906F /* HTScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTScheduler.framework; path = HTScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6A246FF2B5B026039CCA293720EC6E /* HTScheduler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTScheduler-umbrella.h"; sourceTree = "<group>"; };
+		FB7C3DEEEDE4DD8D6E4D47259986D0DC /* ModuleB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleB.modulemap; sourceTree = "<group>"; };
+		FC947818880B74E80AFD4E196C857950 /* Target_ModuleB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_ModuleB.h; path = ModuleB/Source/Target_ModuleB.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2445E8AD1EB49E46244EDBEC1AD0D6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404FC4E4789FAFC35BD43AD2772B7B62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A0114D6B536FBFABC428862022001C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363E2995A6412FA85E3150D74388D8A2 /* Foundation.framework in Frameworks */,
+				FC15AD5FFF6A97A58FFF84B317147D00 /* HTScheduler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DA09BA9031CE0BEA655A84E4CB3F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11C81C9D4A7DC5404B3A2BB17DA5B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1859B78D3E5D418969617257E28DC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF778A1998EBDC250C5E43137E7D966 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63D6171A3CC9DC4610448880FFC5B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28703786F40BC8631021525BE936C14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E739BFCB51442829239C3F0269863752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC8CB04A66618E8A2CFD4112FBFA69C /* Foundation.framework in Frameworks */,
+				BF21800EFBB01993B2BBFB3E7DC4F3FD /* HTScheduler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06461923A45D4E7B5A00D56C1FEDD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B851E6883BB5A65DC6D422B503A0D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6B99C3DE01722433097400B4ED7BE6 /* HTScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				8360FE00D2EA6F6FADE415E40532B729 /* HTScheduler.h */,
+				B44C73E105C89959598A624F0A5F185F /* HTScheduler.m */,
+				31D3A667C13F7F78BC7BE0DAF3DB14AC /* Support Files */,
+			);
+			name = HTScheduler;
+			path = HTScheduler;
+			sourceTree = "<group>";
+		};
+		0B18E8A0A6B3DF275F6D0AEAEA875964 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				76FA05526FF2A2B96F503584FDE01884 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		12D6D579774F1D950314574DB0E480EF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				15F5ED7FBA49F416103AAD0572F000B3 /* LICENSE */,
+				51425704F75CA27ABC3CA741C81C87ED /* ModuleBCategory.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2AE273B70CED94AF07D24BCA3DA1742B /* Pods-MainProject */ = {
+			isa = PBXGroup;
+			children = (
+				7F825ECE3759C95DAEBF0C0B4587DA92 /* Pods-MainProject.modulemap */,
+				58F0F5BBE9CA2A908FAE0045766B888E /* Pods-MainProject-acknowledgements.markdown */,
+				070FCFAE13FA180851839D655E1B60DE /* Pods-MainProject-acknowledgements.plist */,
+				CC62599745B1D8D8CCFD037E66D458B6 /* Pods-MainProject-dummy.m */,
+				7FE866BDA50DBF1E474253E8420B8D05 /* Pods-MainProject-frameworks.sh */,
+				9DD39810CB05DDCA7F4DD0B439131F59 /* Pods-MainProject-Info.plist */,
+				A8F3860AAF18B129EC47EE94F5F14113 /* Pods-MainProject-umbrella.h */,
+				CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */,
+				3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */,
+			);
+			name = "Pods-MainProject";
+			path = "Target Support Files/Pods-MainProject";
+			sourceTree = "<group>";
+		};
+		2DF665DCB81417DA5271FB9663030E27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BF572165B834A2C26F361EAF99F6625 /* HTCrashReporter.modulemap */,
+				05A7F4FFF4494A61037F5450C3F04675 /* HTCrashReporter.xcconfig */,
+				EF20333EE67108AA9DB43AC20EA0A23A /* HTCrashReporter-dummy.m */,
+				4A28A5E7484B39DFE26A00065506D2A5 /* HTCrashReporter-Info.plist */,
+				8DC45D7FA9F06097C06A49A856903FE7 /* HTCrashReporter-prefix.pch */,
+				6A1DF384629029F7CA7361A181BE6FFF /* HTCrashReporter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTCrashReporter";
+			sourceTree = "<group>";
+		};
+		31D3A667C13F7F78BC7BE0DAF3DB14AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F6B8799A5CA9E285A4CDE1C6688B80 /* HTScheduler.modulemap */,
+				05764BBC65EB452F5ACF5B086A0C3DD4 /* HTScheduler.xcconfig */,
+				015B7398909BB44E184E79B011DCD8FC /* HTScheduler-dummy.m */,
+				2F8A9B4E819D0CEB48AA3EA96B80B80B /* HTScheduler-Info.plist */,
+				AFC11A53ABBBA6800F97AF95F83BC492 /* HTScheduler-prefix.pch */,
+				FB6A246FF2B5B026039CCA293720EC6E /* HTScheduler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTScheduler";
+			sourceTree = "<group>";
+		};
+		35703F5768144900580E3E2809AF16ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3155ACF5F33597DC7CDA043BA85D516 /* HTScheduler.framework */,
+				0B18E8A0A6B3DF275F6D0AEAEA875964 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B62E35A424DEFDB8648969552C93725 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE82C71B7DC5236420769647DAEDA3 /* LICENSE */,
+				CB3649C4B42C00ED10569DB846BAEA5C /* ModuleACategory.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		41B8DC78CD9E4579FFF419DD765C1EFE /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				10D9FBDC45ECAF54E8667281286B5C4D /* HTBViewController.h */,
+				4D424D1D4938B9F537636AD222A8EDC0 /* HTBViewController.m */,
+				FC947818880B74E80AFD4E196C857950 /* Target_ModuleB.h */,
+				8813B552955FC41D8706A2A6B9D9EAC4 /* Target_ModuleB.m */,
+				7BF59F355630E958E961F3EF503AA006 /* Pod */,
+				EABAEA6AB524621750B577C1747AF914 /* Support Files */,
+			);
+			name = ModuleB;
+			path = /Users/guojin_jsn/Documents/ModuleProject/ModuleB;
+			sourceTree = "<absolute>";
+		};
+		44493B58587613779C5CBB60AC21902D /* HTCrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				7A30BDD775B879A745D199C31C4CA7E1 /* HTCrashConfiguration.h */,
+				A835A873DCD22C6EC63A38BBE9691937 /* HTCrashConfiguration.m */,
+				1F394B1D901F21ABF439CE50E8DBC207 /* HTCrashProxy.h */,
+				4D7FE3EC5A427C9E9732207421439B1A /* HTCrashProxy.m */,
+				815840F814CEAF18CFE09D81E22B1B1B /* HTCrashReporter.h */,
+				456642A9B95C8A3E11CD6EABAAA68B13 /* HTCrashReporter.m */,
+				AAB45CFBCAACFA47B4733D5E36519891 /* NSArray+Swizzling.h */,
+				44185CF742FE179AF591D54F432142BD /* NSArray+Swizzling.m */,
+				485E42909784A9DB8B462C0A591768D7 /* NSDictionary+Swizzling.h */,
+				70E7E8DAC3DB8BABA3C57392D1311F3A /* NSDictionary+Swizzling.m */,
+				503244BC926B4F90A94510D324E07F6B /* NSObject+Swizzling.h */,
+				0523AC5C97C6F9D760914EDC3D31C5DD /* NSObject+Swizzling.m */,
+				A51E37B01E15CA3B420D7B593ACA1860 /* NSString+Swizzling.h */,
+				0927708FFE39F277E433EB8DA145E128 /* NSString+Swizzling.m */,
+				2DF665DCB81417DA5271FB9663030E27 /* Support Files */,
+			);
+			name = HTCrashReporter;
+			path = HTCrashReporter;
+			sourceTree = "<group>";
+		};
+		618B70CE5F937132379591C9B0A1ADE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				913EC332632AC8E22A2431454632AF6C /* ModuleBCategory.modulemap */,
+				64C5680056925C68ED86E6329BAD15BC /* ModuleBCategory.xcconfig */,
+				A7ADAB1280AFA255A376949C72C18A81 /* ModuleBCategory-dummy.m */,
+				75677FF8798FF028295F805DEFC630F9 /* ModuleBCategory-Info.plist */,
+				E4066D9E705E9BE6DC43B200ADB14DF9 /* ModuleBCategory-prefix.pch */,
+				B39D54C5157C699E04132E957C00DC45 /* ModuleBCategory-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/ModuleBCategory";
+			sourceTree = "<group>";
+		};
+		7BF59F355630E958E961F3EF503AA006 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7279547870E4DDAE6A68D7D53569AC7 /* LICENSE */,
+				367B8618228DDCF5B2F22A46EE2478C2 /* ModuleB.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		973D4A86DFAE7803C395D12D91C46FD2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA24B33489C58748C5151858AFE88AFF /* ModuleA */,
+				D412ED18477CC49809C92DD34038C2BA /* ModuleACategory */,
+				41B8DC78CD9E4579FFF419DD765C1EFE /* ModuleB */,
+				FA5A35C4C189C87632309B8880A42628 /* ModuleBCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8164F79B36E3F47CAB2CD4E98B5B7E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB1A5B26CC72F7946FAC20F1F48CBF5E /* HTCrashReporter.framework */,
+				F92068E4DA0022C27382F8AE3984906F /* HTScheduler.framework */,
+				E456AFCB516933DA3FF757858A9ABC2B /* ModuleA.framework */,
+				681C32204B89AF67B40E57E3D3D17C04 /* ModuleACategory.framework */,
+				75DD37438D682870E1E5B6647E3D9A40 /* ModuleB.framework */,
+				82726338C340325D258E703210CD76F0 /* ModuleBCategory.framework */,
+				CDDF71B906709D618AC43D24C4830354 /* Pods_MainProject.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96A5C353EF5F8A6B431639E9E9E5091 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE273B70CED94AF07D24BCA3DA1742B /* Pods-MainProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C990B41CB079246D2DF8B7A4AF226FCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D9B9122C754BE2D9FF9DC538F44A631D /* LICENSE */,
+				DBCE0B6E970951D2710366B5BC483485 /* ModuleA.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				973D4A86DFAE7803C395D12D91C46FD2 /* Development Pods */,
+				35703F5768144900580E3E2809AF16ED /* Frameworks */,
+				DAB13755EC2579DA4BC9E693383BB74E /* Pods */,
+				A8164F79B36E3F47CAB2CD4E98B5B7E7 /* Products */,
+				A96A5C353EF5F8A6B431639E9E9E5091 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D412ED18477CC49809C92DD34038C2BA /* ModuleACategory */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A2643BB2E7A503ECF1A7C9159830A /* HTScheduler+ModuleA.h */,
+				A4D1F9C5AA2C9AB7A509D8AAC22CDF99 /* HTScheduler+ModuleA.m */,
+				3B62E35A424DEFDB8648969552C93725 /* Pod */,
+				E6E5E59C6B1D239DAFE61533E612BEC0 /* Support Files */,
+			);
+			name = ModuleACategory;
+			path = /Users/guojin_jsn/Documents/ModuleProject/ModuleACategory;
+			sourceTree = "<absolute>";
+		};
+		DAB13755EC2579DA4BC9E693383BB74E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44493B58587613779C5CBB60AC21902D /* HTCrashReporter */,
+				0A6B99C3DE01722433097400B4ED7BE6 /* HTScheduler */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6E5E59C6B1D239DAFE61533E612BEC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C2BB681E0EB26F37411CA16F7D6435C /* ModuleACategory.modulemap */,
+				058DC54BB9BBA5CD67F70D217E0959E1 /* ModuleACategory.xcconfig */,
+				41119708376264242D1F91AF3DFFD7A0 /* ModuleACategory-dummy.m */,
+				A1ABCC596F715D094EFD728B1500EA7A /* ModuleACategory-Info.plist */,
+				D522AA4E8A1ACE3BE7BC7041EB5604A7 /* ModuleACategory-prefix.pch */,
+				D69C85CC7D1565EEE652712C0CFCB70F /* ModuleACategory-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/ModuleACategory";
+			sourceTree = "<group>";
+		};
+		EA24B33489C58748C5151858AFE88AFF /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				8A98B445DEA21A102C0F62037679E09F /* HTAViewController.h */,
+				301F7BFE4A59B4C13EB6334F6FE6FE87 /* HTAViewController.m */,
+				158560D40665700EC55224DD6AE90492 /* Target_ModuleA.h */,
+				17DEA2CBC7682C899941A042016650C2 /* Target_ModuleA.m */,
+				C990B41CB079246D2DF8B7A4AF226FCF /* Pod */,
+				F06BD79DF78F27EB195A3B41FE43FB6A /* Support Files */,
+			);
+			name = ModuleA;
+			path = /Users/guojin_jsn/Documents/ModuleProject/ModuleA;
+			sourceTree = "<absolute>";
+		};
+		EABAEA6AB524621750B577C1747AF914 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C3DEEEDE4DD8D6E4D47259986D0DC /* ModuleB.modulemap */,
+				8D0926B053F4EABF3B7194354CC50303 /* ModuleB.xcconfig */,
+				F65A282DBB10D761A593D82A4E726306 /* ModuleB-dummy.m */,
+				83FC3A1B62637E7041515D7D68A82240 /* ModuleB-Info.plist */,
+				D24BACF1AB01F6F22A3117FACC09C0D0 /* ModuleB-prefix.pch */,
+				EF7D78639E083D7095A989C3810109C4 /* ModuleB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/ModuleB";
+			sourceTree = "<group>";
+		};
+		F06BD79DF78F27EB195A3B41FE43FB6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7C312932B1EF691F6B94368E1ADA9D /* ModuleA.modulemap */,
+				7D0703A5E1640444C9FBAA5F9340C34A /* ModuleA.xcconfig */,
+				A00BBEB19EC4024FF77D662CC1737042 /* ModuleA-dummy.m */,
+				9102DA80DD9B420B1BA716B53BB4BAA4 /* ModuleA-Info.plist */,
+				5EEB24336DABAAC6342F47316F16B181 /* ModuleA-prefix.pch */,
+				736A40B56A4DAACAC17D6EB21534F941 /* ModuleA-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/ModuleA";
+			sourceTree = "<group>";
+		};
+		FA5A35C4C189C87632309B8880A42628 /* ModuleBCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B4A89A7366F4B624323B09F650C20E28 /* HTScheduler+ModuleB.h */,
+				9737218BCF002D9904E3A02485B88822 /* HTScheduler+ModuleB.m */,
+				12D6D579774F1D950314574DB0E480EF /* Pod */,
+				618B70CE5F937132379591C9B0A1ADE8 /* Support Files */,
+			);
+			name = ModuleBCategory;
+			path = /Users/guojin_jsn/Documents/ModuleProject/ModuleBCategory;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EBA6C9D4F7E081C6B3A3E222E57A4C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC63F9199236BBF39F353083F82ACEC /* HTCrashConfiguration.h in Headers */,
+				14A05B492AB8A05E1B27CDFB71FC710E /* HTCrashProxy.h in Headers */,
+				1A0D77AB4EE202C5C03ED20553E2C81A /* HTCrashReporter-umbrella.h in Headers */,
+				5DE2C072998301F0F5CC8892D745AE11 /* HTCrashReporter.h in Headers */,
+				CF35A68C0EFAF5127EC415835911E968 /* NSArray+Swizzling.h in Headers */,
+				F8BFB057BE3D89F183DBCF24F9F5861C /* NSDictionary+Swizzling.h in Headers */,
+				A16AD26B95891B18D0FA0100EEFB4583 /* NSObject+Swizzling.h in Headers */,
+				D4CD4DD018E3B957D98C84ED49A62B26 /* NSString+Swizzling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1980FD872B877B5153929D7612150984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0770578ED051541549C14F681C7F912C /* HTBViewController.h in Headers */,
+				BFFC7BEBFD36618B0317F12A168A6522 /* ModuleB-umbrella.h in Headers */,
+				C5AE39D4ADA72B509AC0E3F6A82FF4D7 /* Target_ModuleB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320CF84BB8D6D8334B83DC1B28D3D5A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCAA814E6258710474FF2E6F250037C /* HTScheduler+ModuleA.h in Headers */,
+				B5B6B845CD2022FEC96AA8004936B46E /* ModuleACategory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913A55A2B3346385392B989AAAED6BA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC62BB2F2650182DBEAA9F80633C098 /* Pods-MainProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84169A624A239BF382C13E7F06F8037 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AAB5A0667BE655D8C3F4CD0C607045 /* HTAViewController.h in Headers */,
+				79B3F02A227B377F395FC6AFD5CB1783 /* ModuleA-umbrella.h in Headers */,
+				E2AA593FFF2C06579C565AD9B6429F87 /* Target_ModuleA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19406B78FD712E5CCC40808843D93AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DECBA7D64BBF2F55CE7DB0FD3942638 /* HTScheduler+ModuleB.h in Headers */,
+				20F39779BE984E16E855F569F99BD9DA /* ModuleBCategory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9768260A345E891E48DEED4788ED8DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656E226D1B8F33D763C5759F6BF1E1FC /* HTScheduler-umbrella.h in Headers */,
+				0D463A374740E616882A64CBA4F0F845 /* HTScheduler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06A31A4544AC260976EFBA1FB33CFD7C /* ModuleA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B3609968CC90BC6384F79632B84755A /* Build configuration list for PBXNativeTarget "ModuleA" */;
+			buildPhases = (
+				B84169A624A239BF382C13E7F06F8037 /* Headers */,
+				11E4CA8EC8D1C709B5B4C41411FB1EFE /* Sources */,
+				E1859B78D3E5D418969617257E28DC58 /* Frameworks */,
+				42F5FFB3EC653AD31AD4EF791CAB6101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModuleA;
+			productName = ModuleA;
+			productReference = E456AFCB516933DA3FF757858A9ABC2B /* ModuleA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C46FC8946BAA675DA4AD91E5CA0FBDA /* ModuleACategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78732A900BB2F7E101A86BF8F9B05AE2 /* Build configuration list for PBXNativeTarget "ModuleACategory" */;
+			buildPhases = (
+				320CF84BB8D6D8334B83DC1B28D3D5A9 /* Headers */,
+				5A907B7A16A6553EBCEDF46904B49DC5 /* Sources */,
+				59A0114D6B536FBFABC428862022001C /* Frameworks */,
+				B895705D45A82959AFA5066D53F81FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB46DDFD4A20673045ABB498D4F7D0B /* PBXTargetDependency */,
+			);
+			name = ModuleACategory;
+			productName = ModuleACategory;
+			productReference = 681C32204B89AF67B40E57E3D3D17C04 /* ModuleACategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		630C70F2395DDD7252599EFB0D17EE01 /* HTCrashReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9D4CFFCE830113D903A8836BFA0BF6 /* Build configuration list for PBXNativeTarget "HTCrashReporter" */;
+			buildPhases = (
+				0EBA6C9D4F7E081C6B3A3E222E57A4C9 /* Headers */,
+				B8D799835966C78C0CFE63CB1FB67B5D /* Sources */,
+				B3DA09BA9031CE0BEA655A84E4CB3F4B /* Frameworks */,
+				E7CBF609767AC80B73E91EA36A209D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTCrashReporter;
+			productName = HTCrashReporter;
+			productReference = EB1A5B26CC72F7946FAC20F1F48CBF5E /* HTCrashReporter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D5626CAB484E0B5D1D729067DD42C92 /* Pods-MainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FF0BD6E82D395B467EC465C2420816 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */;
+			buildPhases = (
+				913A55A2B3346385392B989AAAED6BA3 /* Headers */,
+				4E011FBA24759FF2F8E1BD3269CC1FEA /* Sources */,
+				E63D6171A3CC9DC4610448880FFC5B22 /* Frameworks */,
+				1B30DA5AD5035125704E53A696DB3C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F9E0608E0265BE13298CEC51FC98A8 /* PBXTargetDependency */,
+				F606E09FDEAD9C5F8725E672D1677336 /* PBXTargetDependency */,
+				68ECD1D6D48623A24F2D622D0C3298A4 /* PBXTargetDependency */,
+				73CBC8532F051D9D239E09D249094D44 /* PBXTargetDependency */,
+				067C826EA5EA93E51FD212449F524808 /* PBXTargetDependency */,
+				F4F84BE565297E9B917D3E363FC61D7E /* PBXTargetDependency */,
+			);
+			name = "Pods-MainProject";
+			productName = "Pods-MainProject";
+			productReference = CDDF71B906709D618AC43D24C4830354 /* Pods_MainProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		751082DD8E769C0B785EB5DC5083B66D /* ModuleB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E935751B0C651263F3CA1D59912E3A4 /* Build configuration list for PBXNativeTarget "ModuleB" */;
+			buildPhases = (
+				1980FD872B877B5153929D7612150984 /* Headers */,
+				D695C4D77A0F3E225E48D00339533BA6 /* Sources */,
+				2445E8AD1EB49E46244EDBEC1AD0D6CB /* Frameworks */,
+				8A1CEB9BE47099E5A01A6C46DD1500D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModuleB;
+			productName = ModuleB;
+			productReference = 75DD37438D682870E1E5B6647E3D9A40 /* ModuleB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABAC0FD401CD30D5121D103BB0399D2A /* ModuleBCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133A8C9BBFBAA0FCDD32B4E150CCA433 /* Build configuration list for PBXNativeTarget "ModuleBCategory" */;
+			buildPhases = (
+				C19406B78FD712E5CCC40808843D93AE /* Headers */,
+				5B2334C9AC6607C28F9A2D9705B1244D /* Sources */,
+				E739BFCB51442829239C3F0269863752 /* Frameworks */,
+				68301834E8FA0AE74F704F6B0FDAD85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83941EDC592626212F842F7AB9B69BF6 /* PBXTargetDependency */,
+			);
+			name = ModuleBCategory;
+			productName = ModuleBCategory;
+			productReference = 82726338C340325D258E703210CD76F0 /* ModuleBCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0BF94748A6449DE9C6067EC8B1A9014 /* HTScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D8B9D2726EA03C548BBADFCFBEC088 /* Build configuration list for PBXNativeTarget "HTScheduler" */;
+			buildPhases = (
+				D9768260A345E891E48DEED4788ED8DE /* Headers */,
+				DA5D07A59A78BA3121C197912CBB2A74 /* Sources */,
+				F06461923A45D4E7B5A00D56C1FEDD27 /* Frameworks */,
+				B2A6607271A295F1363BE278D9933EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTScheduler;
+			productName = HTScheduler;
+			productReference = F92068E4DA0022C27382F8AE3984906F /* HTScheduler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A8164F79B36E3F47CAB2CD4E98B5B7E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630C70F2395DDD7252599EFB0D17EE01 /* HTCrashReporter */,
+				C0BF94748A6449DE9C6067EC8B1A9014 /* HTScheduler */,
+				06A31A4544AC260976EFBA1FB33CFD7C /* ModuleA */,
+				4C46FC8946BAA675DA4AD91E5CA0FBDA /* ModuleACategory */,
+				751082DD8E769C0B785EB5DC5083B66D /* ModuleB */,
+				ABAC0FD401CD30D5121D103BB0399D2A /* ModuleBCategory */,
+				6D5626CAB484E0B5D1D729067DD42C92 /* Pods-MainProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B30DA5AD5035125704E53A696DB3C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F5FFB3EC653AD31AD4EF791CAB6101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68301834E8FA0AE74F704F6B0FDAD85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1CEB9BE47099E5A01A6C46DD1500D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A6607271A295F1363BE278D9933EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B895705D45A82959AFA5066D53F81FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7CBF609767AC80B73E91EA36A209D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E4CA8EC8D1C709B5B4C41411FB1EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC8A112B37BC66C3DA108A61402BCB7 /* HTAViewController.m in Sources */,
+				1FAF94A2952DC49ADD2F6DA72A2DEFE2 /* ModuleA-dummy.m in Sources */,
+				C2A00E49648E296E86F486D179D7B43B /* Target_ModuleA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E011FBA24759FF2F8E1BD3269CC1FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE77C6EDCA3F4161DF32561951F1910F /* Pods-MainProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A907B7A16A6553EBCEDF46904B49DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9272CB0F5E6642FB990003A37FA4C3 /* HTScheduler+ModuleA.m in Sources */,
+				1CB19E220CF912CCE437D43AD59A1777 /* ModuleACategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2334C9AC6607C28F9A2D9705B1244D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE28F5CAC871792B82B555A8332F704 /* HTScheduler+ModuleB.m in Sources */,
+				69DC0156BED693A8A2FDDB24C639223D /* ModuleBCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D799835966C78C0CFE63CB1FB67B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F93FFD9E235B352F09FDF1EFCCCFB2B /* HTCrashConfiguration.m in Sources */,
+				30BE130B0BF978EE8144D2C02D48A110 /* HTCrashProxy.m in Sources */,
+				110814EFC9F75C68F9B895DFACD4400C /* HTCrashReporter-dummy.m in Sources */,
+				D18587EB29311D9DBC4744EEB408C4A1 /* HTCrashReporter.m in Sources */,
+				40D08009AE7C1A73A84288747C51990D /* NSArray+Swizzling.m in Sources */,
+				FD94AC74A16CAAEA755A418393496524 /* NSDictionary+Swizzling.m in Sources */,
+				A030656E80F1E735AB2787C0E11A60F5 /* NSObject+Swizzling.m in Sources */,
+				32BC7C834229AB4ABD8877BDE9241523 /* NSString+Swizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695C4D77A0F3E225E48D00339533BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97668180E210062D92AF6D3032078619 /* HTBViewController.m in Sources */,
+				C09E7A01057C6AFA75EA2A081F277340 /* ModuleB-dummy.m in Sources */,
+				4DA199D53DA297EA3B7F34030B16C124 /* Target_ModuleB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D07A59A78BA3121C197912CBB2A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F172DACB7528A3205795B83230216 /* HTScheduler-dummy.m in Sources */,
+				AE10A948AFA43EA2C902AB72F52AC761 /* HTScheduler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		067C826EA5EA93E51FD212449F524808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleB;
+			target = 751082DD8E769C0B785EB5DC5083B66D /* ModuleB */;
+			targetProxy = 9311F621D6615DDC9D47193435C2B4A1 /* PBXContainerItemProxy */;
+		};
+		3CB46DDFD4A20673045ABB498D4F7D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTScheduler;
+			target = C0BF94748A6449DE9C6067EC8B1A9014 /* HTScheduler */;
+			targetProxy = B567990E12F07FC369F1EABDBA634FEA /* PBXContainerItemProxy */;
+		};
+		68ECD1D6D48623A24F2D622D0C3298A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleA;
+			target = 06A31A4544AC260976EFBA1FB33CFD7C /* ModuleA */;
+			targetProxy = 0F03F4011CB0FE605223C603ADF53CDF /* PBXContainerItemProxy */;
+		};
+		73CBC8532F051D9D239E09D249094D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleACategory;
+			target = 4C46FC8946BAA675DA4AD91E5CA0FBDA /* ModuleACategory */;
+			targetProxy = 7C291E9D644DCBA3E04008BB73CD4B42 /* PBXContainerItemProxy */;
+		};
+		83941EDC592626212F842F7AB9B69BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTScheduler;
+			target = C0BF94748A6449DE9C6067EC8B1A9014 /* HTScheduler */;
+			targetProxy = 4D7D61E9A438C58BE8E632CFCAEC3512 /* PBXContainerItemProxy */;
+		};
+		B2F9E0608E0265BE13298CEC51FC98A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTCrashReporter;
+			target = 630C70F2395DDD7252599EFB0D17EE01 /* HTCrashReporter */;
+			targetProxy = 69475D344F8AD9C81447FAA40E114B77 /* PBXContainerItemProxy */;
+		};
+		F4F84BE565297E9B917D3E363FC61D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleBCategory;
+			target = ABAC0FD401CD30D5121D103BB0399D2A /* ModuleBCategory */;
+			targetProxy = 2F86C32B75324E0769AA527E43F458F5 /* PBXContainerItemProxy */;
+		};
+		F606E09FDEAD9C5F8725E672D1677336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTScheduler;
+			target = C0BF94748A6449DE9C6067EC8B1A9014 /* HTScheduler */;
+			targetProxy = 53A86A391AD1998F659414473E03EB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		094A458B1C5939B4BE194EA67E98DA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0703A5E1640444C9FBAA5F9340C34A /* ModuleA.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleA/ModuleA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleA/ModuleA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleA/ModuleA.modulemap";
+				PRODUCT_MODULE_NAME = ModuleA;
+				PRODUCT_NAME = ModuleA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16077DC2AE740404418C2E81D70E90D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C5680056925C68ED86E6329BAD15BC /* ModuleBCategory.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleBCategory/ModuleBCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleBCategory/ModuleBCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleBCategory/ModuleBCategory.modulemap";
+				PRODUCT_MODULE_NAME = ModuleBCategory;
+				PRODUCT_NAME = ModuleBCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A0C1EA00BEE2D365362EEB7071BB2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0926B053F4EABF3B7194354CC50303 /* ModuleB.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleB/ModuleB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleB/ModuleB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleB/ModuleB.modulemap";
+				PRODUCT_MODULE_NAME = ModuleB;
+				PRODUCT_NAME = ModuleB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21272F47290A32E10BD526C32D7AB267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFDAAADFB97861B33BE3BB603512BD4 /* Pods-MainProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24930C90D8DFB04AFEE50153CAE1902F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C5680056925C68ED86E6329BAD15BC /* ModuleBCategory.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleBCategory/ModuleBCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleBCategory/ModuleBCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleBCategory/ModuleBCategory.modulemap";
+				PRODUCT_MODULE_NAME = ModuleBCategory;
+				PRODUCT_NAME = ModuleBCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		257D47F0A729EF98FB6C7527BB32D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0926B053F4EABF3B7194354CC50303 /* ModuleB.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleB/ModuleB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleB/ModuleB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleB/ModuleB.modulemap";
+				PRODUCT_MODULE_NAME = ModuleB;
+				PRODUCT_NAME = ModuleB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34E4DA8BCB245043445399A464B55A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A7F4FFF4494A61037F5450C3F04675 /* HTCrashReporter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTCrashReporter/HTCrashReporter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter.modulemap";
+				PRODUCT_MODULE_NAME = HTCrashReporter;
+				PRODUCT_NAME = HTCrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41CBBB03A725D394C041B1E0E790593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 058DC54BB9BBA5CD67F70D217E0959E1 /* ModuleACategory.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleACategory/ModuleACategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleACategory/ModuleACategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleACategory/ModuleACategory.modulemap";
+				PRODUCT_MODULE_NAME = ModuleACategory;
+				PRODUCT_NAME = ModuleACategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		891991354FBBD40559CDD86242986F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05764BBC65EB452F5ACF5B086A0C3DD4 /* HTScheduler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTScheduler/HTScheduler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTScheduler/HTScheduler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HTScheduler/HTScheduler.modulemap";
+				PRODUCT_MODULE_NAME = HTScheduler;
+				PRODUCT_NAME = HTScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95A50ED71D7850862A36CB17B6CE9E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0703A5E1640444C9FBAA5F9340C34A /* ModuleA.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleA/ModuleA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleA/ModuleA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleA/ModuleA.modulemap";
+				PRODUCT_MODULE_NAME = ModuleA;
+				PRODUCT_NAME = ModuleA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1CF248B9495A8DB8F6A9FB129B439D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 058DC54BB9BBA5CD67F70D217E0959E1 /* ModuleACategory.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleACategory/ModuleACategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModuleACategory/ModuleACategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModuleACategory/ModuleACategory.modulemap";
+				PRODUCT_MODULE_NAME = ModuleACategory;
+				PRODUCT_NAME = ModuleACategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCDFE3A6745AA050B5EB4CAF64D7CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05764BBC65EB452F5ACF5B086A0C3DD4 /* HTScheduler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTScheduler/HTScheduler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTScheduler/HTScheduler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HTScheduler/HTScheduler.modulemap";
+				PRODUCT_MODULE_NAME = HTScheduler;
+				PRODUCT_NAME = HTScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBAAA84453DDB354E853099213ADF8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3804950B7816E4F356395ECB0FA39CBA /* Pods-MainProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MainProject/Pods-MainProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC37A3F54F0CA0F3B328953E36DA4A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A7F4FFF4494A61037F5450C3F04675 /* HTCrashReporter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTCrashReporter/HTCrashReporter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter.modulemap";
+				PRODUCT_MODULE_NAME = HTCrashReporter;
+				PRODUCT_NAME = HTCrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B3609968CC90BC6384F79632B84755A /* Build configuration list for PBXNativeTarget "ModuleA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094A458B1C5939B4BE194EA67E98DA98 /* Debug */,
+				95A50ED71D7850862A36CB17B6CE9E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133A8C9BBFBAA0FCDD32B4E150CCA433 /* Build configuration list for PBXNativeTarget "ModuleBCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16077DC2AE740404418C2E81D70E90D8 /* Debug */,
+				24930C90D8DFB04AFEE50153CAE1902F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E935751B0C651263F3CA1D59912E3A4 /* Build configuration list for PBXNativeTarget "ModuleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0C1EA00BEE2D365362EEB7071BB2BE /* Debug */,
+				257D47F0A729EF98FB6C7527BB32D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D8B9D2726EA03C548BBADFCFBEC088 /* Build configuration list for PBXNativeTarget "HTScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDFE3A6745AA050B5EB4CAF64D7CFAC /* Debug */,
+				891991354FBBD40559CDD86242986F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78732A900BB2F7E101A86BF8F9B05AE2 /* Build configuration list for PBXNativeTarget "ModuleACategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CF248B9495A8DB8F6A9FB129B439D9 /* Debug */,
+				41CBBB03A725D394C041B1E0E790593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9D4CFFCE830113D903A8836BFA0BF6 /* Build configuration list for PBXNativeTarget "HTCrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E4DA8BCB245043445399A464B55A1B /* Debug */,
+				FC37A3F54F0CA0F3B328953E36DA4A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FF0BD6E82D395B467EC465C2420816 /* Build configuration list for PBXNativeTarget "Pods-MainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21272F47290A32E10BD526C32D7AB267 /* Debug */,
+				EBAAA84453DDB354E853099213ADF8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

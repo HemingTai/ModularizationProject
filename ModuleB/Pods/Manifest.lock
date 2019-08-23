@@ -1,0 +1,16 @@
+PODS:
+  - HTCrashReporter (0.0.1)
+
+DEPENDENCIES:
+  - HTCrashReporter
+
+SPEC REPOS:
+  https://github.com/HemingTai/HTSpecs.git:
+    - HTCrashReporter
+
+SPEC CHECKSUMS:
+  HTCrashReporter: 9c167aa25ad0ca8807c02ec3bb3f60784924b92b
+
+PODFILE CHECKSUM: a9724b66812b43ca0a383c3e6d4d41a52e8bd446
+
+COCOAPODS: 1.7.0.rc.1

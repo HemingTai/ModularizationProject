@@ -1,0 +1,16 @@
+PODS:
+  - HTScheduler (0.0.2)
+
+DEPENDENCIES:
+  - HTScheduler
+
+SPEC REPOS:
+  https://github.com/HemingTai/HTSpecs.git:
+    - HTScheduler
+
+SPEC CHECKSUMS:
+  HTScheduler: c86a58c96e074b7542b61177eb69e218b3e3904b
+
+PODFILE CHECKSUM: 184aac5ee184fe770b3b2d664b64ed4c178d33de
+
+COCOAPODS: 1.7.0.rc.1

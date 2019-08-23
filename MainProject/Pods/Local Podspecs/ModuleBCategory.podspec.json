@@ -1,0 +1,26 @@
+{
+  "name": "ModuleBCategory",
+  "version": "0.0.1",
+  "summary": "ModuleBCategory To Test",
+  "description": "ModuleBCategory for ModuleProject",
+  "homepage": "https://github.com/HemingTai/HTSpecs.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Hem1ngTai",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "~/Documents/ModuleProject/ModuleBCategory/ModuleBCategory.podspec",
+    "tag": "0.0.1"
+  },
+  "source_files": "ModuleBCategory/Source/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "HTScheduler": [
+
+    ]
+  }
+}

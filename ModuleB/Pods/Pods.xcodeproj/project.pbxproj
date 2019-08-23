@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F93FFD9E235B352F09FDF1EFCCCFB2B /* HTCrashConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EF8E3A4D31EDD5C6A5690B0D0C240 /* HTCrashConfiguration.m */; };
+		110814EFC9F75C68F9B895DFACD4400C /* HTCrashReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DBB67F02D71F0BA83A28F5BA24C833 /* HTCrashReporter-dummy.m */; };
+		14A05B492AB8A05E1B27CDFB71FC710E /* HTCrashProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F481A85F8B855A7F9A61B8D3B217ED7 /* HTCrashProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0D77AB4EE202C5C03ED20553E2C81A /* HTCrashReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD46AB236BC1C7EF20A3E472275DF81 /* HTCrashReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30BE130B0BF978EE8144D2C02D48A110 /* HTCrashProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E03E52E274CA6B72B4BE20694B4BE333 /* HTCrashProxy.m */; };
+		32BC7C834229AB4ABD8877BDE9241523 /* NSString+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C2582386A080F3D8A10EEB488C79AD /* NSString+Swizzling.m */; };
+		3B6C169317E5EC61279DCAB090D1A18C /* Pods-ModuleB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D95DB99B8623C2A1C3B6FDCB757CA5 /* Pods-ModuleB-dummy.m */; };
+		40D08009AE7C1A73A84288747C51990D /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E8259D309E8318494BCE585FE124DBFC /* NSArray+Swizzling.m */; };
+		5DE2C072998301F0F5CC8892D745AE11 /* HTCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA0DC2331AFE06E6AD710C3DDE5566 /* HTCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A11C81C9D4A7DC5404B3A2BB17DA5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A030656E80F1E735AB2787C0E11A60F5 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DF6E3E25A06C20ADF2548944972F17 /* NSObject+Swizzling.m */; };
+		A16AD26B95891B18D0FA0100EEFB4583 /* NSObject+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED7BF99E270F33D497A5C6A69442C78 /* NSObject+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC63F9199236BBF39F353083F82ACEC /* HTCrashConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBADC340828820D32B4666B13840BEB /* HTCrashConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C822CD929A4F65F785CAF40A76011C87 /* Pods-ModuleB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D79A5875CD4C68AC98EA836500860C5 /* Pods-ModuleB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF35A68C0EFAF5127EC415835911E968 /* NSArray+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = B356D7915B1218C950FEE4A789F19FF4 /* NSArray+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D18587EB29311D9DBC4744EEB408C4A1 /* HTCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FA1DED74E412A98056D85D41251D97 /* HTCrashReporter.m */; };
+		D4CD4DD018E3B957D98C84ED49A62B26 /* NSString+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 1919D2DD15E3F7DEBEF55CF1603A2898 /* NSString+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED0CC108A4E8CC28E02E0EC55E0DAEF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F8BFB057BE3D89F183DBCF24F9F5861C /* NSDictionary+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EFA2565D7E5E8B283F88DA7BED973 /* NSDictionary+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD94AC74A16CAAEA755A418393496524 /* NSDictionary+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 595860F583F6DD4378AF22E3834B8BB2 /* NSDictionary+Swizzling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075BEAEDE14599AB96835546032F8DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630C70F2395DDD7252599EFB0D17EE01;
+			remoteInfo = HTCrashReporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C2582386A080F3D8A10EEB488C79AD /* NSString+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Swizzling.m"; path = "HTCrashReporter/NSString+Swizzling.m"; sourceTree = "<group>"; };
+		0F481A85F8B855A7F9A61B8D3B217ED7 /* HTCrashProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCrashProxy.h; path = HTCrashReporter/HTCrashProxy.h; sourceTree = "<group>"; };
+		1919D2DD15E3F7DEBEF55CF1603A2898 /* NSString+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Swizzling.h"; path = "HTCrashReporter/NSString+Swizzling.h"; sourceTree = "<group>"; };
+		21DBB67F02D71F0BA83A28F5BA24C833 /* HTCrashReporter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCrashReporter-dummy.m"; sourceTree = "<group>"; };
+		2D79A5875CD4C68AC98EA836500860C5 /* Pods-ModuleB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ModuleB-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41FA1DED74E412A98056D85D41251D97 /* HTCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCrashReporter.m; path = HTCrashReporter/HTCrashReporter.m; sourceTree = "<group>"; };
+		42DB05ABE9F9DC7720BE5000E096229A /* Pods-ModuleB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleB.release.xcconfig"; sourceTree = "<group>"; };
+		46C129F240787B8172F63CBEFB9C49A3 /* HTCrashReporter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCrashReporter-prefix.pch"; sourceTree = "<group>"; };
+		495B7CDB92BBB2EA4E909C9FA3B07E5F /* HTCrashReporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTCrashReporter.xcconfig; sourceTree = "<group>"; };
+		4FDA0DC2331AFE06E6AD710C3DDE5566 /* HTCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCrashReporter.h; path = HTCrashReporter/HTCrashReporter.h; sourceTree = "<group>"; };
+		570BD56F0DACE685E79D35063F90B75F /* Pods-ModuleB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModuleB-acknowledgements.markdown"; sourceTree = "<group>"; };
+		595860F583F6DD4378AF22E3834B8BB2 /* NSDictionary+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Swizzling.m"; path = "HTCrashReporter/NSDictionary+Swizzling.m"; sourceTree = "<group>"; };
+		5D3C97886C2294B28C35DB6AD4DB219D /* Pods-ModuleB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleB-Info.plist"; sourceTree = "<group>"; };
+		6C3A4880188F3B890D190ACB91F2C434 /* Pods_ModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ModuleB.framework; path = "Pods-ModuleB.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD08A5C2FFEF7C6ABBDD354554EB08B /* Pods-ModuleB-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModuleB-frameworks.sh"; sourceTree = "<group>"; };
+		7ED7BF99E270F33D497A5C6A69442C78 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Swizzling.h"; path = "HTCrashReporter/NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		8BD46AB236BC1C7EF20A3E472275DF81 /* HTCrashReporter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCrashReporter-umbrella.h"; sourceTree = "<group>"; };
+		8C6EF8E3A4D31EDD5C6A5690B0D0C240 /* HTCrashConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCrashConfiguration.m; path = HTCrashReporter/HTCrashConfiguration.m; sourceTree = "<group>"; };
+		9D8EF08D2EE416781A7A9A257C689DF3 /* HTCrashReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTCrashReporter.framework; path = HTCrashReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B356D7915B1218C950FEE4A789F19FF4 /* NSArray+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Swizzling.h"; path = "HTCrashReporter/NSArray+Swizzling.h"; sourceTree = "<group>"; };
+		BD18F613E1B78D616814E967112D728D /* Pods-ModuleB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ModuleB.modulemap"; sourceTree = "<group>"; };
+		C5DF6E3E25A06C20ADF2548944972F17 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzling.m"; path = "HTCrashReporter/NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		CB9860C52CC63C50242B2AE902DEAACF /* Pods-ModuleB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModuleB.debug.xcconfig"; sourceTree = "<group>"; };
+		CCBADC340828820D32B4666B13840BEB /* HTCrashConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCrashConfiguration.h; path = HTCrashReporter/HTCrashConfiguration.h; sourceTree = "<group>"; };
+		D48EFA2565D7E5E8B283F88DA7BED973 /* NSDictionary+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Swizzling.h"; path = "HTCrashReporter/NSDictionary+Swizzling.h"; sourceTree = "<group>"; };
+		E03E52E274CA6B72B4BE20694B4BE333 /* HTCrashProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCrashProxy.m; path = HTCrashReporter/HTCrashProxy.m; sourceTree = "<group>"; };
+		E8259D309E8318494BCE585FE124DBFC /* NSArray+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Swizzling.m"; path = "HTCrashReporter/NSArray+Swizzling.m"; sourceTree = "<group>"; };
+		ED255078AEE970C4A93D6927F51BF41D /* HTCrashReporter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTCrashReporter.modulemap; sourceTree = "<group>"; };
+		F376740F8240A9DF618C1912AC3A7924 /* Pods-ModuleB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleB-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3E7FDB86F1F99ECFDCA2C019CEF3EB7 /* HTCrashReporter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HTCrashReporter-Info.plist"; sourceTree = "<group>"; };
+		F4D95DB99B8623C2A1C3B6FDCB757CA5 /* Pods-ModuleB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModuleB-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F0FAA84C528A8D6E05A62CA11E95019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CC108A4E8CC28E02E0EC55E0DAEF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DA09BA9031CE0BEA655A84E4CB3F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A11C81C9D4A7DC5404B3A2BB17DA5B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344C9D81932A186C981A34A86320E3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D8EF08D2EE416781A7A9A257C689DF3 /* HTCrashReporter.framework */,
+				6C3A4880188F3B890D190ACB91F2C434 /* Pods_ModuleB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422D23E8FF5F85CB0A60063D4A951934 /* Pods-ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				BD18F613E1B78D616814E967112D728D /* Pods-ModuleB.modulemap */,
+				570BD56F0DACE685E79D35063F90B75F /* Pods-ModuleB-acknowledgements.markdown */,
+				F376740F8240A9DF618C1912AC3A7924 /* Pods-ModuleB-acknowledgements.plist */,
+				F4D95DB99B8623C2A1C3B6FDCB757CA5 /* Pods-ModuleB-dummy.m */,
+				7DD08A5C2FFEF7C6ABBDD354554EB08B /* Pods-ModuleB-frameworks.sh */,
+				5D3C97886C2294B28C35DB6AD4DB219D /* Pods-ModuleB-Info.plist */,
+				2D79A5875CD4C68AC98EA836500860C5 /* Pods-ModuleB-umbrella.h */,
+				CB9860C52CC63C50242B2AE902DEAACF /* Pods-ModuleB.debug.xcconfig */,
+				42DB05ABE9F9DC7720BE5000E096229A /* Pods-ModuleB.release.xcconfig */,
+			);
+			name = "Pods-ModuleB";
+			path = "Target Support Files/Pods-ModuleB";
+			sourceTree = "<group>";
+		};
+		4598D95EFC7267655B5CDD600CF9B9E7 /* HTCrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				CCBADC340828820D32B4666B13840BEB /* HTCrashConfiguration.h */,
+				8C6EF8E3A4D31EDD5C6A5690B0D0C240 /* HTCrashConfiguration.m */,
+				0F481A85F8B855A7F9A61B8D3B217ED7 /* HTCrashProxy.h */,
+				E03E52E274CA6B72B4BE20694B4BE333 /* HTCrashProxy.m */,
+				4FDA0DC2331AFE06E6AD710C3DDE5566 /* HTCrashReporter.h */,
+				41FA1DED74E412A98056D85D41251D97 /* HTCrashReporter.m */,
+				B356D7915B1218C950FEE4A789F19FF4 /* NSArray+Swizzling.h */,
+				E8259D309E8318494BCE585FE124DBFC /* NSArray+Swizzling.m */,
+				D48EFA2565D7E5E8B283F88DA7BED973 /* NSDictionary+Swizzling.h */,
+				595860F583F6DD4378AF22E3834B8BB2 /* NSDictionary+Swizzling.m */,
+				7ED7BF99E270F33D497A5C6A69442C78 /* NSObject+Swizzling.h */,
+				C5DF6E3E25A06C20ADF2548944972F17 /* NSObject+Swizzling.m */,
+				1919D2DD15E3F7DEBEF55CF1603A2898 /* NSString+Swizzling.h */,
+				08C2582386A080F3D8A10EEB488C79AD /* NSString+Swizzling.m */,
+				87979B81239265AFC14F1086C3B06B07 /* Support Files */,
+			);
+			name = HTCrashReporter;
+			path = HTCrashReporter;
+			sourceTree = "<group>";
+		};
+		87979B81239265AFC14F1086C3B06B07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED255078AEE970C4A93D6927F51BF41D /* HTCrashReporter.modulemap */,
+				495B7CDB92BBB2EA4E909C9FA3B07E5F /* HTCrashReporter.xcconfig */,
+				21DBB67F02D71F0BA83A28F5BA24C833 /* HTCrashReporter-dummy.m */,
+				F3E7FDB86F1F99ECFDCA2C019CEF3EB7 /* HTCrashReporter-Info.plist */,
+				46C129F240787B8172F63CBEFB9C49A3 /* HTCrashReporter-prefix.pch */,
+				8BD46AB236BC1C7EF20A3E472275DF81 /* HTCrashReporter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTCrashReporter";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E88438BF75404D693308EE2E810CBD02 /* Pods */,
+				344C9D81932A186C981A34A86320E3DD /* Products */,
+				F1468C64BE8B83964AEABE71619CB170 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E88438BF75404D693308EE2E810CBD02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4598D95EFC7267655B5CDD600CF9B9E7 /* HTCrashReporter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1468C64BE8B83964AEABE71619CB170 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				422D23E8FF5F85CB0A60063D4A951934 /* Pods-ModuleB */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EBA6C9D4F7E081C6B3A3E222E57A4C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC63F9199236BBF39F353083F82ACEC /* HTCrashConfiguration.h in Headers */,
+				14A05B492AB8A05E1B27CDFB71FC710E /* HTCrashProxy.h in Headers */,
+				1A0D77AB4EE202C5C03ED20553E2C81A /* HTCrashReporter-umbrella.h in Headers */,
+				5DE2C072998301F0F5CC8892D745AE11 /* HTCrashReporter.h in Headers */,
+				CF35A68C0EFAF5127EC415835911E968 /* NSArray+Swizzling.h in Headers */,
+				F8BFB057BE3D89F183DBCF24F9F5861C /* NSDictionary+Swizzling.h in Headers */,
+				A16AD26B95891B18D0FA0100EEFB4583 /* NSObject+Swizzling.h in Headers */,
+				D4CD4DD018E3B957D98C84ED49A62B26 /* NSString+Swizzling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB06573DAA50E726F9D9B5C17D76D91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C822CD929A4F65F785CAF40A76011C87 /* Pods-ModuleB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4FA1AC4F8B644631FBC87E02FCAAFAC1 /* Pods-ModuleB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9D26C1904181490DF35FA946FF03B7 /* Build configuration list for PBXNativeTarget "Pods-ModuleB" */;
+			buildPhases = (
+				FDB06573DAA50E726F9D9B5C17D76D91 /* Headers */,
+				E7DFD44E886E47B37E89D181CB73BD1B /* Sources */,
+				0F0FAA84C528A8D6E05A62CA11E95019 /* Frameworks */,
+				4671574BBE3F56CE41D0DA4880728ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAA8C2C59DC8885A8864CDDBA7E3C89 /* PBXTargetDependency */,
+			);
+			name = "Pods-ModuleB";
+			productName = "Pods-ModuleB";
+			productReference = 6C3A4880188F3B890D190ACB91F2C434 /* Pods_ModuleB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		630C70F2395DDD7252599EFB0D17EE01 /* HTCrashReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9D4CFFCE830113D903A8836BFA0BF6 /* Build configuration list for PBXNativeTarget "HTCrashReporter" */;
+			buildPhases = (
+				0EBA6C9D4F7E081C6B3A3E222E57A4C9 /* Headers */,
+				B8D799835966C78C0CFE63CB1FB67B5D /* Sources */,
+				B3DA09BA9031CE0BEA655A84E4CB3F4B /* Frameworks */,
+				E7CBF609767AC80B73E91EA36A209D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTCrashReporter;
+			productName = HTCrashReporter;
+			productReference = 9D8EF08D2EE416781A7A9A257C689DF3 /* HTCrashReporter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 344C9D81932A186C981A34A86320E3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630C70F2395DDD7252599EFB0D17EE01 /* HTCrashReporter */,
+				4FA1AC4F8B644631FBC87E02FCAAFAC1 /* Pods-ModuleB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4671574BBE3F56CE41D0DA4880728ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7CBF609767AC80B73E91EA36A209D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8D799835966C78C0CFE63CB1FB67B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F93FFD9E235B352F09FDF1EFCCCFB2B /* HTCrashConfiguration.m in Sources */,
+				30BE130B0BF978EE8144D2C02D48A110 /* HTCrashProxy.m in Sources */,
+				110814EFC9F75C68F9B895DFACD4400C /* HTCrashReporter-dummy.m in Sources */,
+				D18587EB29311D9DBC4744EEB408C4A1 /* HTCrashReporter.m in Sources */,
+				40D08009AE7C1A73A84288747C51990D /* NSArray+Swizzling.m in Sources */,
+				FD94AC74A16CAAEA755A418393496524 /* NSDictionary+Swizzling.m in Sources */,
+				A030656E80F1E735AB2787C0E11A60F5 /* NSObject+Swizzling.m in Sources */,
+				32BC7C834229AB4ABD8877BDE9241523 /* NSString+Swizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7DFD44E886E47B37E89D181CB73BD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6C169317E5EC61279DCAB090D1A18C /* Pods-ModuleB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAA8C2C59DC8885A8864CDDBA7E3C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTCrashReporter;
+			target = 630C70F2395DDD7252599EFB0D17EE01 /* HTCrashReporter */;
+			targetProxy = 075BEAEDE14599AB96835546032F8DF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A5F7FD649B333C9723310719458077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9860C52CC63C50242B2AE902DEAACF /* Pods-ModuleB.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ModuleB/Pods-ModuleB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ModuleB/Pods-ModuleB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34E4DA8BCB245043445399A464B55A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495B7CDB92BBB2EA4E909C9FA3B07E5F /* HTCrashReporter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTCrashReporter/HTCrashReporter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter.modulemap";
+				PRODUCT_MODULE_NAME = HTCrashReporter;
+				PRODUCT_NAME = HTCrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6DC468FFE6DD4BE23529C58418FBABA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DB05ABE9F9DC7720BE5000E096229A /* Pods-ModuleB.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ModuleB/Pods-ModuleB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ModuleB/Pods-ModuleB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FC37A3F54F0CA0F3B328953E36DA4A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495B7CDB92BBB2EA4E909C9FA3B07E5F /* HTCrashReporter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTCrashReporter/HTCrashReporter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HTCrashReporter/HTCrashReporter.modulemap";
+				PRODUCT_MODULE_NAME = HTCrashReporter;
+				PRODUCT_NAME = HTCrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9D4CFFCE830113D903A8836BFA0BF6 /* Build configuration list for PBXNativeTarget "HTCrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E4DA8BCB245043445399A464B55A1B /* Debug */,
+				FC37A3F54F0CA0F3B328953E36DA4A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9D26C1904181490DF35FA946FF03B7 /* Build configuration list for PBXNativeTarget "Pods-ModuleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A5F7FD649B333C9723310719458077 /* Debug */,
+				6DC468FFE6DD4BE23529C58418FBABA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

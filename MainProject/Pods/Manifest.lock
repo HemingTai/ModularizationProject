@@ -1,0 +1,43 @@
+PODS:
+  - HTCrashReporter (0.0.1)
+  - HTScheduler (0.0.3)
+  - ModuleA (0.0.1)
+  - ModuleACategory (0.0.1):
+    - HTScheduler
+  - ModuleB (0.0.1)
+  - ModuleBCategory (0.0.1):
+    - HTScheduler
+
+DEPENDENCIES:
+  - HTCrashReporter
+  - ModuleA (from `~/Documents/ModuleProject/ModuleA`)
+  - ModuleACategory (from `~/Documents/ModuleProject/ModuleACategory`)
+  - ModuleB (from `~/Documents/ModuleProject/ModuleB`)
+  - ModuleBCategory (from `~/Documents/ModuleProject/ModuleBCategory`)
+
+SPEC REPOS:
+  https://github.com/HemingTai/HTSpecs.git:
+    - HTCrashReporter
+    - HTScheduler
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: "~/Documents/ModuleProject/ModuleA"
+  ModuleACategory:
+    :path: "~/Documents/ModuleProject/ModuleACategory"
+  ModuleB:
+    :path: "~/Documents/ModuleProject/ModuleB"
+  ModuleBCategory:
+    :path: "~/Documents/ModuleProject/ModuleBCategory"
+
+SPEC CHECKSUMS:
+  HTCrashReporter: 9c167aa25ad0ca8807c02ec3bb3f60784924b92b
+  HTScheduler: 6f3c2c277426b5106b72e645048e494b25250066
+  ModuleA: 45dd3cd29bbf574e3b4b368f791ec9a6083877d1
+  ModuleACategory: 0fdd5527a76997f3bff97e15fa3dac25e09ca619
+  ModuleB: 99369be082359472d5b52b02bc02aaaf72370e07
+  ModuleBCategory: feaacfb8edf9032bb8d46b7bf2d68f3fe29df35f
+
+PODFILE CHECKSUM: 9b9a7f5c7406a425adcaa818a9c4772778a87fe0
+
+COCOAPODS: 1.7.0.rc.1

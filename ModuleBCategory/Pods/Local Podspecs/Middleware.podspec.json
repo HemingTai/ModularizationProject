@@ -1,0 +1,22 @@
+{
+  "name": "Middleware",
+  "version": "0.0.3",
+  "summary": "Middleware To Test",
+  "description": "Middleware for ModuleProject",
+  "homepage": "https://github.com/HemingTai/HTSpecs.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hem1ngTai": "heming_tai@163.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "~/Documents/ModuleProject/Middleware/Middleware.podspec",
+    "tag": "0.0.3"
+  },
+  "source_files": "Middleware/Source/*.{h,m}"
+}

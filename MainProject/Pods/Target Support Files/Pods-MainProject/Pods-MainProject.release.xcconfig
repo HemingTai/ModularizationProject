@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HTCrashReporter" "${PODS_CONFIGURATION_BUILD_DIR}/HTScheduler" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleA" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleACategory" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleB" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleBCategory"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HTCrashReporter/HTCrashReporter.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HTScheduler/HTScheduler.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleA/ModuleA.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleACategory/ModuleACategory.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleB/ModuleB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ModuleBCategory/ModuleBCategory.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "HTCrashReporter" -framework "HTScheduler" -framework "ModuleA" -framework "ModuleACategory" -framework "ModuleB" -framework "ModuleBCategory"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

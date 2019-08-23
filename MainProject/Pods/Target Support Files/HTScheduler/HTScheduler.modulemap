@@ -1,0 +1,6 @@
+framework module HTScheduler {
+  umbrella header "HTScheduler-umbrella.h"
+
+  export *
+  module * { export * }
+}
